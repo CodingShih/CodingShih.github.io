@@ -1,0 +1,100 @@
+.main-header {
+
+  
+  width: 100%;
+  height: 110;
+  background-image:url("./titleblueOK_MID.jpg");	
+  background-color: ;
+  
+  line-height: 30px;
+  margin:  px;
+ /*
+  text-align:left;
+  */
+  font-size:30px;
+
+}
+
+.containerleft {
+  width: 100%;
+  margin:0px;
+  display: inline-flex;
+  justify-content: flex-start;
+
+}
+
+
+
+.box {
+  vertical-align: left;
+  text-align: middle;
+  /*
+  
+  border-bottom: 1px solid #ccc;*/
+  margin: auto;
+  
+  
+    
+}
+
+.input{
+  
+  border:2px solid 	#5599FF;
+  border-radius: 10px;
+  outline:none;
+  
+}
+			
+.box img {
+  position: absolute;						
+  right: 400px;
+  top: 360px;
+  
+  
+  width: 40px;
+  height: 30px;
+}
+
+
+
+
+/*
+
+<style>
+			.box 
+			{
+				position: relative;
+				width: 350px;
+				margin: 100px auto;
+				border-bottom: 1px solid #ccc;
+			}
+			
+			.box input 
+			{
+				width: 370px;
+				height: 30px;
+				border: 0;
+				outline: none;
+			}
+			
+			.box img 
+			{
+				position: absolute;						
+				right: 2px;
+				top: 2px;
+				width: 30px;
+				height: 24px;
+			}
+			
+		</style>
+*/
+
+
+/*
+.boxcontent{
+  position: relative;
+  
+  
+  text-align: left;
+  
+}*/
