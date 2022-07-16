@@ -116,44 +116,51 @@ a {
 }
 
 
+.robotp
+{
+  position: absolute;
+  top: 155px;
+  right: 120px;
+}
+
+
+
 .pazzlep
 {
   position: absolute;
-  top: 400px;
-  left: 450px;
-  width:60px;
-  height:60px;
+  top: 450px;
+  left: 520px;
 }
 
 .text1p
 {
   position: absolute;
-  top: 180px;
+  top: 155px;
   left: 100px;
-  font-size: 35px;
+  font-size: 30px;
 }
 
 .text2p
 {
   position: absolute;
-  top: 270px;
+  top: 225px;
   left: 150px;
-  font-size: 35px;
+  font-size: 30px;
 }
 
 .text3p
 {
   position: absolute;
-  top: 360px;
+  top: 295px;
   left: 200px;
-  font-size: 35px;
+  font-size: 30px;
 }
 
 .textcenterp
 {
   position: absolute;
-  top: 420px;
-  left: 420px;
+  top: 335px;
+  left: 350px;
   font-size: 35px;
   color: #D26900;
 }
