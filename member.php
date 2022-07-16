@@ -6,7 +6,6 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"  />
 		
 	<head>
-	  <meta http-equiv="Content-Type" content="text/html"; charset="utf-8"/>
 	  <title>書審Spotlight-成員中心</title>
 	</head> 
 	
@@ -24,9 +23,6 @@
 			</div>
 		</header>
 	
-		
-	<!-- echo '<a href="logout.html">登出</a>  <br/><br/>'; -->
-	
 	
 	<?php
 		include("connect_mysql.php");//連結資料庫
@@ -35,10 +31,8 @@
         $RESULT = mysqli_query($link,$SEL);
 	?>
 
-	
 
 		<br/><br/><br/><br/> <!--用表格框起來 查出來的成員表 -->
-		
 		<div align="center">
 			<table border="1"  style= "border:10px #FFF0D4 outset;" width="" height="" cellpadding="10" >
 				<thead>
@@ -94,6 +88,13 @@
 
 </html>
     <!--
+
+	
+	 echo '<a href="logout.html">登出</a>  <br/><br/>'; 
+	
+
+
+
 		//此判斷為判定觀看此頁有沒有權限
 		//說不定是路人或不相關的使用者，因此要給予排除
 		if($_SESSION['account'] != null)
